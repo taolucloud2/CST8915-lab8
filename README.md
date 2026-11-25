@@ -11,8 +11,6 @@
 
 ## Task 2: Findings on Azure Managed Services
 
-## Task 2: Findings on Azure Managed Services
-
 ### MongoDB → Azure Cosmos DB for MongoDB (now called Azure DocumentDB)
 
 MongoDB keeps data, so it is hard to scale in Kubernetes. If we add more pods, the data can get out of sync. Azure Cosmos DB for MongoDB is managed by Azure, so Azure scales it and keeps the data in sync for us.
